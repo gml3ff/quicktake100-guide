@@ -41,6 +41,25 @@ This should be self-explanatory. For clarity, I'm using VirtualBox version 6.1. 
 
 ### 3. Configure a Windows XP VM in VirtualBox
 
+Using the .iso image you downloaded earlier, create a VM in Virtualbox. This is a relatively simple process, but I've broken it down to make it more clear what settings were used.
+
+#### a. Click "New" to create a new VM
+
+![step a](images/vbox_stepa.png)
+
+#### b. Give the VM a name and select the operating system. Continue past the defaults.
+
+After you do this, you can basically just click through and use the default options for the virtual disk and all the other settings.
+
+![step b](images/vbox_stepb.png)
+
+#### c. Configure the .iso image as a virtual optical disk 
+
+Select your VM, click on the "Settings" gear icon, and then navigate to the "Storage" tab in the popup window. Click on the little disk icon and then select "Choose a disk file." From this dialog, select the Windows XP .iso image. 
+
+![step c](images/vbox_stepc.png)
+ 
+
 ## References
 
 Below are a few pages that were of immense use to me while figuring this out. 
