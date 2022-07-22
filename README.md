@@ -18,9 +18,13 @@ These cables are guaranteed to work, and you should be able to purchase them dir
 
 There are many cables out there, but this is the only one that worked for me. [Here's a link to purchase the adapter on Amazon](https://www.amazon.com/gp/product/B004ES1S14/)
 
+![USB Adapter](images/usbadapter.jpg)
+
 ### 2. Male 8 Pin Mini-DIN to Female DB9 serial adapter
 
 This one is generally more difficult to track down, but [I was able to find this one on eBay](https://www.ebay.com/itm/184203852259) that was counterinutively cheaper than the DB9 to USB adapter. Some other folks were suggesting that I should build my own or acquire an OEM Apple Newton adapter, however that was not necessary in my case. 
+
+![Serial Cable](images/serialcable.jpg)
 
 
 ## Step 2 - Configure Windows XP for VirtualBox
