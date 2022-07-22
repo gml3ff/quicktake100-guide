@@ -59,9 +59,9 @@ Select your VM, click on the "Settings" gear icon, and then navigate to the "Sto
 
 ![step c](images/vbox_stepc.png)
 
-#### d. Plug in your serial adapter and add it to the USB Device Filters list
+#### d. Plug in your serial to USB adapter and add it to the USB Device Filters list
 
-Once you plugin the adapter and click the add button, you should see a device with something like `FTDI FT232R USB UART`. This is your USB adapter. 
+While still in the "Settings" menu for the VM, select the "Ports" tab and additionally select the "USB" option. Once you plugin the adapter and click the add button, you should see a device with something like `FTDI FT232R USB UART`. This is your USB adapter. 
 
 ![step d](images/vbox_stepd.png)
 
