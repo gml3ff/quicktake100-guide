@@ -58,6 +58,18 @@ After you do this, you can basically just click through and use the default opti
 Select your VM, click on the "Settings" gear icon, and then navigate to the "Storage" tab in the popup window. Click on the little disk icon and then select "Choose a disk file." From this dialog, select the Windows XP .iso image. 
 
 ![step c](images/vbox_stepc.png)
+
+#### d. Plug in your serial adapter and add it to the USB Device Filters list
+
+Once you plugin the adapter and click the add button, you should see a device with something like `FTDI FT232R USB UART`. This is your USB adapter. 
+
+![step d](images/vbox_stepd.png)
+
+## Step 3 - Install Windows XP and Required Software
+
+Now that you've configured your VirtualBox VM, you'll want to configure Windows XP and install all the correct software. 
+
+
  
 
 ## References
