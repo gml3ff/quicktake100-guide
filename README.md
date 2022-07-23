@@ -75,11 +75,13 @@ Now that you've configured your VirtualBox VM, you'll want to configure Windows 
 
 Select your new VM, then click the "Start" button. You should see a new Window pop up. You should immediately boot into the Windows XP setup. Follow the prompts and configure the default options. 
 
+![xp boot](xpboot.png)
+
 #### b. Configure your Windows XP license key
 
 After the machine restarts, you will be prompted to register your name and enter your license key. Use the one included in the [archive.org link shared earlier](https://archive.org/details/WinXPProSP3x86).
 
-
+![product key](productkey.png)
 
 
  
