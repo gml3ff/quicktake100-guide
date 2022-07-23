@@ -55,6 +55,8 @@ After you do this, you can basically just click through and use the default opti
 
 #### c. Configure the .iso image as a virtual optical disk 
 
+> **_NOTE:_** In order to complete this step appropriately, you will need to configure VirtualBox Guest Additions. [See this Stack Overflow article for more information](https://stackoverflow.com/questions/41691803/how-to-install-guest-addition-in-mac-os-as-guest-and-windows-machine-as-host).
+
 Select your VM, click on the "Settings" gear icon, and then navigate to the "Storage" tab in the popup window. Click on the little disk icon and then select "Choose a disk file." From this dialog, select the Windows XP .iso image. 
 
 ![step c](images/vbox_stepc.png)
