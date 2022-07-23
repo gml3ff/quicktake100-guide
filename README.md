@@ -2,6 +2,18 @@
 
 How to get photos off of your Quicktake 100. A guide for Mac users. 
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Step 1 - Purchase your materials](#step-1---purchase-your-materials)
+- [Step 2 - Configure Windows XP for VirtualBox](#step-2---configure-windows-xp-for-virtualbox)
+- [Step 3 - Install Windows XP](#step-3---install-windows-xp)
+- [Step 4 - Install QuickTake software and serial drivers](#step-4---install-quicktake-software-and-serial-drivers)
+- [Step 5 - Connect your Camera](#step-5---conect-your-camera)
+- [Useful Links](#useful-links)
+- [References](#references)
+
+
 ## Introduction
 
 This guide is comprised of different tips I've picked up over the past several, infuriating weeks trying to get photos off of my QuickTake 100. I could not find a comprehensive, start to finish guide that explains all the steps in detail, so that is what I'm going to attempt to do in this repository here. 
@@ -129,7 +141,7 @@ Double click on the driver setup, you should see it complete almost immediately.
 
 Push in the slider on the side of the camera which should expose the 8-pin DIN connector. 
 
-![camera with cable](images/camera_with_cable.jpg)
+![camera with cable](images/camera_with_cable.JPG)
 
 ### 2. Open the "QuickTake Serial Ports" software
 
@@ -180,6 +192,13 @@ Drag and drop the image that you've downloaded to the Windows XP VM to a folder 
 Gotta say I was pleasantly surprised by the "High Resolution" mode. Definitely not a lot of pixels, but produces a half-decent image. 
 
 ![capitol image](images/capitol_image.png)
+
+
+## Useful Links 
+
+Some other links that may be helpful to you. 
+
+- [QuickTake 100 User Guide](https://archive.org/details/manuallib-id-2626234/mode/2up)
 
 
 ## References
