@@ -93,10 +93,93 @@ Click through the on-screen prompts and configure an Administrator password. Onc
 
 Now that you have Windows XP set up, it's time to install all the correct software. 
 
-### 1. Install the QuickTake software
+### 1. Download the QuickTake software
 
 Enable drag and drop on the Windows XP VM by selecting `Devices > Drag and Drop > Bidirectional`. After this simply download the [QuickTake software included in this repo](software/QuickTakeSoftware.zip) and drag it over to the Desktop in your Windows XP VM. 
 
+Remember, this will only work if VirtualBox Guest Additions is already installed. All you have to do to install this is mount the Guest Additions .iso and complete the installation steps. 
+
+![download button](downloadbutton.png)
+
+### 2. Extract the file and run the setup script for QuickTake
+
+Double click on the zipped file, click "Extract all files". Double-click on the "Setup" executable in the newly extracted folder, you should be presented with this glorious 90s setup wizard.
+
+![quicktake setup](images/quicktakesetup.png)
+
+Once the instlall is completed you should see your QuickTake software in the program list. 
+
+![program list](images/programlist.png)
+
+
+### 3. Download the drivers for the serial adapter
+
+There's an executable [for these in this repo](software/Adapter_Drivers_Setup.exe). But if you'd rather download directly from the manufacturer [you can find that here](https://www.ftdichip.com/old2020/Drivers/VCP.htm). Drag and drop to the Desktop just like you did before. 
+
+![download drivers](images/download_drivers.png)
+
+### 4. Install the driver executable
+
+Double click on the driver setup, you should see it complete almost immediately. 
+
+
+## Step 5 - Connect your Camera 
+
+### 1. Attach the cable to your camera and corresponding adapter
+
+Push in the slider on the side of the camera which should expose the 8-pin DIN connector. 
+
+![camera with cable](images/camera_with_cable.jpg)
+
+### 2. Open the "QuickTake Serial Ports" software
+
+You'll use this to test the camera's connectivity. Set the "Baud Rate" to "9600". 
+
+![quicktake serial](images/quicktakeserial.png)
+
+### 3. Power on your camera 
+
+Open the slider near the front of the lens to turn the camera on. You should see a spinning rectangle on the display which indicates the camera is ready to sync to the computer. 
+
+Be aware that serial connectivity uses a lot of battery. Use the DC jack or make sure you have rechargeable AA batteries with a decent amount of charge.
+
+![camera open](images/camera_open.jpg)
+
+![camera sync](images/camera_sync.jpg)
+
+### 4. Test the camera's connectivity
+
+Select the COM port that says "High Speed Serial Port" (this was COM3 in my case). Then click "Test". If connectivity is successful you should see this pop-up dialog. 
+
+![successful popup](images/successfulpopup.png)
+
+### 5. Open the QuickTake software and connect
+
+Select `Camera > View All Slides in Camera`. You should see all the images as thumbnails that you can download. 
+
+![thumbnails](images/thumbnails.png)
+
+### 6. Download an image. 
+
+Select an image of your choice then click `File > Save As`. I typically recommend exporting as .tif as this is a high quality format compatible with most image editing software. 
+
+You can also download all of these using `Camera > Move All Camera Images to Disk`, but I'd recommend just selecting them manually and clicking `Save As` as it allows you to choose a "normal" image format more easily. 
+
+Downloading is extremely slow, so this is another reason not to do this all at once. 
+
+![save as](images/saveas.png)
+
+
+### 7. Copy the image back to your host computer
+
+Drag and drop the image that you've downloaded to the Windows XP VM to a folder of your choice. Congratulations you've successfully gotten images off of your QuickTake 100!!
+
+
+![drag drop](images/dragdrop.png)
+
+Gotta say I was pleasantly surprised by the "High Resolution" mode. Definitely not a lot of pixels, but produces a half-decent image. 
+
+![capitol image](images/capitol_image.png)
 
 
 ## References
