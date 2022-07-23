@@ -83,8 +83,11 @@ After the machine restarts, you will be prompted to register your name and enter
 
 ![product key](images/productkey.png)
 
+#### c. Complete Windows XP installation
 
- 
+Click through the on-screen prompts and configure an Administrator password. Once everything's done, you should have a working Windows XP box. 
+
+
 
 ## References
 
