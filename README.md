@@ -71,9 +71,15 @@ While still in the "Settings" menu for the VM, select the "Ports" tab and additi
 
 Now that you've configured your VirtualBox VM, you'll want to configure Windows XP and install all the correct software. 
 
-#### a. Select your new VM, then click the "Start" button. You should see a new Window pop up. You should immediately boot into the Windows XP setup. Follow the prompts and configure the default options. 
+#### a. Follow boot screen prompts
 
-#### b. Once the install is completed setup your Administrator user and continue.
+Select your new VM, then click the "Start" button. You should see a new Window pop up. You should immediately boot into the Windows XP setup. Follow the prompts and configure the default options. 
+
+#### b. Configure your Windows XP Administrator account
+
+After the machine restarts, you will be prompted to register your name and enter your license key. Use the one included in the [archive.org link shared earlier](https://archive.org/details/WinXPProSP3x86).
+
+
 
 
  
