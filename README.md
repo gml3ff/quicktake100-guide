@@ -99,7 +99,7 @@ Enable drag and drop on the Windows XP VM by selecting `Devices > Drag and Drop 
 
 Remember, this will only work if VirtualBox Guest Additions is already installed. All you have to do to install this is mount the Guest Additions .iso and complete the installation steps. 
 
-![download button](downloadbutton.png)
+![download button](images/downloadbutton.png)
 
 ### 2. Extract the file and run the setup script for QuickTake
 
@@ -143,9 +143,9 @@ Open the slider near the front of the lens to turn the camera on. You should see
 
 Be aware that serial connectivity uses a lot of battery. Use the DC jack or make sure you have rechargeable AA batteries with a decent amount of charge.
 
-![camera open](images/camera_open.jpg)
+![camera open](images/camera_open.JPG)
 
-![camera sync](images/camera_sync.jpg)
+![camera sync](images/camera_sync.JPG)
 
 ### 4. Test the camera's connectivity
 
