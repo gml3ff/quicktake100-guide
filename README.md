@@ -67,15 +67,13 @@ After you do this, you can basically just click through and use the default opti
 
 #### c. Configure the .iso image as a virtual optical disk 
 
-> **_NOTE:_** In order to complete this step appropriately, you will need to configure VirtualBox Guest Additions. [See this Stack Overflow article for more information](https://stackoverflow.com/questions/41691803/how-to-install-guest-addition-in-mac-os-as-guest-and-windows-machine-as-host).
-
-Select your VM, click on the "Settings" gear icon, and then navigate to the "Storage" tab in the popup window. Click on the little disk icon and then select "Choose a disk file." From this dialog, select the Windows XP .iso image. 
+Select your VM, click on the `Settings` gear icon, and then navigate to the `Storage` tab in the popup window. Click on the little disk icon and then select `Choose a disk file`. From this dialog, select the Windows XP .iso image. 
 
 ![step c](images/vbox_stepc.png)
 
 #### d. Plug in your serial to USB adapter and add it to the USB Device Filters list
 
-While still in the "Settings" menu for the VM, select the "Ports" tab and additionally select the "USB" option. Once you plugin the adapter and click the add button, you should see a device with something like `FTDI FT232R USB UART`. This is your USB adapter. 
+While still in the `Settings` menu for the VM, select the `Ports` tab and additionally select the `USB` option. Once you plugin the adapter and click the add button, you should see a device with something like `FTDI FT232R USB UART`. This is your USB adapter. 
 
 ![step d](images/vbox_stepd.png)
 
@@ -85,7 +83,7 @@ Now that you've configured your VirtualBox VM, you'll want to configure Windows 
 
 ### 1. Follow boot screen prompts
 
-Select your new VM, then click the "Start" button. You should see a new Window pop up. You should immediately boot into the Windows XP setup. Follow the prompts and configure the default options. 
+Select your new VM, then click the `Start` button. You should see a new Window pop up. You should immediately boot into the Windows XP setup. Follow the prompts and configure the default options. 
 
 ![xp boot](images/xpboot.png)
 
@@ -107,9 +105,11 @@ Now that you have Windows XP set up, it's time to install all the correct softwa
 
 ### 1. Download the QuickTake software
 
+> **_NOTE:_** In order to complete this step appropriately, you will need to configure VirtualBox Guest Additions. [See this page for more information](https://docs.oracle.com/cd/E36500_01/E36502/html/qs-guest-additions.html).
+
 Enable drag and drop on the Windows XP VM by selecting `Devices > Drag and Drop > Bidirectional`. After this simply download the [QuickTake software included in this repo](software/QuickTakeSoftware.zip) and drag it over to the Desktop in your Windows XP VM. 
 
-Remember, this will only work if VirtualBox Guest Additions is already installed. All you have to do to install this is mount the Guest Additions .iso and complete the installation steps. 
+Remember, this will only work if VirtualBox Guest Additions is already installed. All you have to do to install this is mount the Guest Additions .iso and complete the installation steps. [Instructions are here](https://docs.oracle.com/cd/E36500_01/E36502/html/qs-guest-additions.html)
 
 ![download button](images/downloadbutton.png)
 
