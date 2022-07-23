@@ -67,25 +67,35 @@ While still in the "Settings" menu for the VM, select the "Ports" tab and additi
 
 ![step d](images/vbox_stepd.png)
 
-## Step 3 - Install Windows XP and Required Software
+## Step 3 - Install Windows XP
 
 Now that you've configured your VirtualBox VM, you'll want to configure Windows XP and install all the correct software. 
 
-#### a. Follow boot screen prompts
+### 1. Follow boot screen prompts
 
 Select your new VM, then click the "Start" button. You should see a new Window pop up. You should immediately boot into the Windows XP setup. Follow the prompts and configure the default options. 
 
 ![xp boot](images/xpboot.png)
 
-#### b. Configure your Windows XP license key
+### 2. Configure your Windows XP license key
 
 After the machine restarts, you will be prompted to register your name and enter your license key. Use the one included in the [archive.org link shared earlier](https://archive.org/details/WinXPProSP3x86).
 
 ![product key](images/productkey.png)
 
-#### c. Complete Windows XP installation
+### 3. Complete Windows XP installation
 
-Click through the on-screen prompts and configure an Administrator password. Once everything's done, you should have a working Windows XP box. 
+Click through the on-screen prompts and configure an Administrator password. Once everything's done, you should have a working Windows XP box. The machine will restart and you'll do some additional form filling etc. You may want to detach the virtual CD ROM you set up in Step 2 as it is no longer needed. 
+
+![windows xp start](images/windowsxpstart.png)
+
+## Step 4 - Install QuickTake software and serial drivers
+
+Now that you have Windows XP set up, it's time to install all the correct software. 
+
+### 1. Install the QuickTake software
+
+Enable drag and drop on the Windows XP VM by selecting `Devices > Drag and Drop > Bidirectional`. After this simply download the [QuickTake software included in this repo](software/QuickTakeSoftware.zip) and drag it over to the Desktop in your Windows XP VM. 
 
 
 
